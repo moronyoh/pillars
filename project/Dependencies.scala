@@ -1,35 +1,35 @@
 import sbt.*
 
 object versions {
-    val scala            = "3.5.2"
+    val scala            = "3.6.3"
     // Dependencies
-    val cats             = "2.12.0"
+    val cats             = "2.13.0"
     val catsEffect       = "3.5.7"
     val circe            = "0.14.10"
     val circeYaml        = "0.15.3"
-    val decline          = "2.4.1"
+    val decline          = "2.5.0"
     val doobie           = "1.0.0-RC6"
-    val flyway           = "11.1.0"
+    val flyway           = "11.1.1"
     val fs2              = "3.11.0"
-    val fs2Rabbit        = "5.3.0"
+    val fs2Rabbit        = "5.4.0"
     val http4s           = "0.23.30"
-    val http4sNetty      = "0.5.21"
+    val http4sNetty      = "0.5.22"
     val ip4s             = "3.6.0"
     val iron             = "2.6.0"
     val literally        = "1.2.0"
     val openApiCirce     = "0.11.3"
     val otel4s           = "0.11.2"
-    val postgresqlDriver = "42.7.4"
+    val postgresqlDriver = "42.7.5"
     val rediculous       = "0.5.1"
-    val scribe           = "3.15.3"
-    val skunk            = "1.0.0-M8"
-    val tapir            = "1.11.10"
-    val testContainers   = "0.41.5"
+    val scribe           = "3.16.0"
+    val skunk            = "1.0.0-M10"
+    val tapir            = "1.11.13"
+    val testContainers   = "0.41.8"
 
     object munit {
-        val core       = "1.0.4"
+        val core       = "1.1.0"
         val catsEffect = "2.0.0"
-        val scalacheck = "1.0.0"
+        val scalacheck = "1.1.0"
         val http4s     = "1.1.0"
     }
 
